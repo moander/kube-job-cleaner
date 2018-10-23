@@ -8,6 +8,6 @@ RUN apk add --no-cache python3 && \
 WORKDIR /
 
 COPY cleaner.py /
-COPY scm-source.json /
+#COPY scm-source.json /
 
 ENTRYPOINT ["/cleaner.py"]
